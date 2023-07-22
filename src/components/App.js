@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./Navbar";
+import Main from "./Main";
 
 function App() {
   return (
-    <div>Personal portfolio App</div>
-  )
+    <>
+      <Navbar />
+      <Main />
+    </>
+  );
 }
 
-export default App
+export default App;
