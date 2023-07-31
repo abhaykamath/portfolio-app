@@ -3,4 +3,23 @@ main {
   padding: 1rem;
   color: white;
   margin: 0 20%;
+  border: 1px solid #484848;
+}
+
+.header {
+  font-size: 1.25rem;
+  color: #fbbc05;
+  color: #4285f4;
+  border-bottom: 1px solid #fbbc05;
+  border-bottom: 1px solid #484848;
+  padding: 0.5rem;
+  width: fit-content;
+}
+
+@media (max-width: 750px) {
+  main {
+    margin: 0;
+    border: none;
+    border-top: 1px solid #484848;
+  }
 }
