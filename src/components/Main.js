@@ -10,6 +10,7 @@ function Main() {
       <Projects />
       <div className="header">About Me</div>
       <About />
+      <footer>Made with ReactJs - 2023 &#169;</footer>
     </main>
   );
 }

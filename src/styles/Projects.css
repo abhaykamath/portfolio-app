@@ -27,15 +27,29 @@
   /* opacity: 0.9; */
   border: 2px solid #fbbc05;
   border: 2px solid #4285f4;
+  border: 2px solid #484848;
+  padding: 0.25rem;
 }
 
 .project:hover {
   cursor: pointer;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .project:active {
   opacity: 0.75;
+}
+
+@media (max-width: 1700px) {
+  .projects-container img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1450px) {
+  .projects-container img {
+    width: 200px;
+  }
 }
 
 @media (max-width: 750px) {
